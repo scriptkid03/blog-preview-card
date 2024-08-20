@@ -8,15 +8,27 @@
 
 @font-face {
   font-family: "Figtree-Regular";
-  src: url("/fonts/Figtree-Regular.ttf") format("opentype");
+  src: url("/fonts/Figtree-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Figtree-SemiBold";
-  src: url("/fonts/Figtree-SemiBold.ttf") format("opentype");
+  src: url("/fonts/Figtree-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Figtree-ExtraBold";
-  src: url("/fonts/Figtree-ExtraBold.ttf") format("opentype");  
+  src: url("/fonts/Figtree-ExtraBold.ttf") format("truetype");  
+}
+
+.card {
+  box-shadow: 8px 8px;
+}
+
+.semibold{
+  font-family: "Figtree-SemiBold";
+}
+
+.extrabold {
+  font-family: "Figtree-ExtraBold";
 }
