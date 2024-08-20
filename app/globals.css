@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Figtree-Regular";
+}
+
+@font-face {
+  font-family: "Figtree-Regular";
+  src: url("/fonts/Figtree-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Figtree-SemiBold";
+  src: url("/fonts/Figtree-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Figtree-ExtraBold";
+  src: url("/fonts/Figtree-ExtraBold.ttf") format("opentype");  
+}
