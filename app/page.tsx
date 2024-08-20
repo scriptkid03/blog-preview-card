@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-center items-center bg-yellow">
-      <div className="flex flex-col h-fit w-96 bg-white rounded-2xl card p-6 gap-6">
+    <main className="flex min-h-screen flex-col justify-center items-center bg-yellow max-md:p-5">
+      <div className="flex flex-col h-fit w-96 max-md:w-fit bg-white rounded-2xl p-6 gap-6 card">
         <div className="">
           <Image
             src={"/svgs/illustration-article.svg"}
